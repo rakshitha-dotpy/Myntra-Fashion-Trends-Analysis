@@ -1,43 +1,54 @@
-# Myntra Fashion Trends Analysis
+<p align="center">
+  <img src="myntra_logo.png.webp" width="160">
+</p>
 
-## Overview
+<h1 align="center">Myntra Fashion Trends Analysis</h1>
 
-This project analyzes a Myntra fashion products dataset containing over 14,000 products. The objective was to explore pricing patterns, brand popularity, and customer ratings using Python and data visualization techniques.
-
-The analysis was performed using Pandas for data manipulation and Matplotlib for visualization.
+<p align="center">
+Data analysis of 14,330 fashion products using Python, Pandas and Matplotlib
+</p>
 
 ---
 
-## Dataset
+## Project Overview
+
+This project explores a Myntra fashion products dataset to understand pricing patterns, brand representation, and customer rating trends.
+
+The goal was to perform exploratory data analysis (EDA) on real-world e-commerce data and extract meaningful business insights through data cleaning, aggregation, and visualization.
+
+---
+
+## Dataset Summary
 
 | Metric | Value |
 |----------|----------|
-| Total Products | 14,330 |
-| Total Features | 11 |
-| Dataset Type | Fashion Products |
-| Tools Used | Python, Pandas, Matplotlib |
+| Products | 14,330 |
+| Features | 11 |
+| Domain | Fashion E-Commerce |
+| Tools | Python, Pandas, Matplotlib |
 
 ---
 
 ## Objectives
 
-- Understand brand distribution across products
-- Analyze product pricing trends
-- Explore customer rating patterns
-- Identify premium brands based on average pricing
+- Analyze product pricing patterns
+- Identify the most represented brands
+- Examine customer rating distribution
+- Compare premium brands based on average pricing
 
 ---
 
 ## Data Preparation
 
-The dataset was cleaned before analysis.
+Before analysis, the dataset was cleaned and validated.
 
-Steps performed:
+Steps included:
 
-- Removed unnecessary index column
-- Checked for missing values
-- Removed incomplete records where required
-- Verified data types and column structure
+- Removing unnecessary index columns
+- Checking missing values
+- Handling incomplete records
+- Verifying column data types
+- Preparing data for visualization
 
 ---
 
@@ -51,63 +62,71 @@ Steps performed:
 
 ---
 
-## Analysis
+## Top Brands
 
-### Top Brands
+Roadster was the most represented brand in the dataset, followed by Tokyo Talkies and MANGO.
 
-Roadster had the highest number of products in the dataset, followed by Tokyo Talkies and MANGO.
-
-<img src="top_brands.png.jpeg" width="800">
-
----
-
-### Product Price Distribution
-
-Most products are concentrated in lower price ranges, while premium products form a long-tail distribution.
-
-<img src="price_distribution.png.jpeg" width="800">
+<p align="center">
+  <img src="top_brands.png.jpeg" width="850">
+</p>
 
 ---
 
-### Rating Distribution
+## Product Price Distribution
 
-The majority of products have ratings between 4.0 and 4.5, indicating generally positive customer feedback.
+Most products fall within lower and mid-range price categories, while a smaller set of premium products extends the distribution.
 
-<img src="rating_distribution.png.jpeg" width="800">
+<p align="center">
+  <img src="price_distribution.png.jpeg" width="850">
+</p>
 
 ---
 
-### Most Expensive Brands
+## Rating Distribution
 
-The following brands recorded the highest average product prices:
+Customer ratings are heavily concentrated between 4.0 and 4.5, indicating generally positive product feedback.
 
-- MOKSHA DESIGNS
-- SAPTRANGI
-- Masaba
-- Teakwood Leathers
-- NAKKASHI
+<p align="center">
+  <img src="rating_distribution.png.jpeg" width="850">
+</p>
 
-<img src="expensive_brands.png.jpeg" width="800">
+---
+
+## Highest Priced Brands
+
+Brands with the highest average product prices:
+
+| Brand | Average Price (₹) |
+|---------|---------:|
+| MOKSHA DESIGNS | 24,865 |
+| SAPTRANGI | 22,499 |
+| Masaba | 20,888 |
+| Teakwood Leathers | 19,999 |
+| NAKKASHI | 17,537 |
+
+<p align="center">
+  <img src="expensive_brands.png.jpeg" width="850">
+</p>
 
 ---
 
 ## Key Findings
 
-- Roadster was the most represented brand in the dataset.
-- The average product price was approximately ₹2964.
-- Most products were priced below ₹5000.
-- Customer ratings were concentrated between 4.0 and 4.5.
-- Premium brands showed significantly higher average pricing than the overall market.
+- Roadster had the highest number of listed products.
+- Average product price was approximately ₹2,964.
+- Most products were priced below ₹5,000.
+- Ratings were concentrated in the 4.0–4.5 range.
+- Premium brands showed significantly higher average pricing compared to the overall dataset.
 
 ---
 
-## Future Improvements
+## Future Scope
 
-Possible extensions for this project include:
+Possible extensions include:
 
 - Interactive dashboard development using Streamlit
 - Product recommendation system
-- Customer review sentiment analysis
+- Sentiment analysis on customer reviews
 - Machine learning based trend prediction
 
 ---
