@@ -1,68 +1,47 @@
-<p align="center">
-  <img src="myntra_logo.png.webp" width="180">
-</p>
+# Myntra Fashion Trends Analysis
 
-<h1 align="center">🛍️ Myntra Fashion Trends Analysis</h1>
+## Overview
 
-<p align="center">
-  Data Analysis Project using Python, Pandas, NumPy and Matplotlib
-</p>
+This project analyzes a Myntra fashion products dataset containing over 14,000 products. The objective was to explore pricing patterns, brand popularity, and customer ratings using Python and data visualization techniques.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue">
-  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange">
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-red">
-</p>
+The analysis was performed using Pandas for data manipulation and Matplotlib for visualization.
 
 ---
 
-# 📌 Project Overview
-
-This project analyzes a Myntra fashion products dataset containing over **14,000 products** to identify trends in:
-
-- Product Pricing
-- Brand Popularity
-- Customer Ratings
-- Premium Fashion Brands
-
-The objective was to perform **Exploratory Data Analysis (EDA)** and derive business insights from real-world e-commerce data.
-
----
-
-# 🎯 Problem Statement
-
-Fashion e-commerce platforms generate large amounts of product data. Understanding customer preferences, pricing patterns, and brand performance can help businesses make data-driven decisions.
-
-This project explores Myntra product data to uncover meaningful trends and insights.
-
----
-
-# 📊 Dataset Information
+## Dataset
 
 | Metric | Value |
 |----------|----------|
 | Total Products | 14,330 |
 | Total Features | 11 |
 | Dataset Type | Fashion Products |
-| Analysis Type | Exploratory Data Analysis |
 | Tools Used | Python, Pandas, Matplotlib |
 
 ---
 
-# 🧹 Data Cleaning Process
+## Objectives
 
-The following preprocessing steps were performed:
+- Understand brand distribution across products
+- Analyze product pricing trends
+- Explore customer rating patterns
+- Identify premium brands based on average pricing
+
+---
+
+## Data Preparation
+
+The dataset was cleaned before analysis.
+
+Steps performed:
 
 - Removed unnecessary index column
 - Checked for missing values
 - Removed incomplete records where required
-- Verified dataset structure and data types
-- Prepared data for visualization and analysis
+- Verified data types and column structure
 
 ---
 
-# 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -72,41 +51,35 @@ The following preprocessing steps were performed:
 
 ---
 
-# 📈 Exploratory Data Analysis
+## Analysis
 
-## 🏆 Top 10 Brands on Myntra
+### Top Brands
 
-Roadster emerged as the most represented brand in the dataset.
+Roadster had the highest number of products in the dataset, followed by Tokyo Talkies and MANGO.
 
-<p align="center">
-  <img src="top_brands.png.jpeg" width="800">
-</p>
+<img src="top_brands.png.jpeg" width="800">
 
 ---
 
-## 💰 Product Price Distribution
+### Product Price Distribution
 
-Most products are concentrated in the lower price ranges, while premium products create a long-tail distribution.
+Most products are concentrated in lower price ranges, while premium products form a long-tail distribution.
 
-<p align="center">
-  <img src="price_distribution.png.jpeg" width="800">
-</p>
+<img src="price_distribution.png.jpeg" width="800">
 
 ---
 
-## ⭐ Product Rating Distribution
+### Rating Distribution
 
-Customer ratings are largely concentrated between **4.0 and 4.5**, indicating strong overall satisfaction.
+The majority of products have ratings between 4.0 and 4.5, indicating generally positive customer feedback.
 
-<p align="center">
-  <img src="rating_distribution.png.jpeg" width="800">
-</p>
+<img src="rating_distribution.png.jpeg" width="800">
 
 ---
 
-## 👑 Most Expensive Brands
+### Most Expensive Brands
 
-Brands with the highest average product prices:
+The following brands recorded the highest average product prices:
 
 - MOKSHA DESIGNS
 - SAPTRANGI
@@ -114,50 +87,49 @@ Brands with the highest average product prices:
 - Teakwood Leathers
 - NAKKASHI
 
-<p align="center">
-  <img src="expensive_brands.png.jpeg" width="800">
-</p>
+<img src="expensive_brands.png.jpeg" width="800">
 
 ---
 
-# 🔍 Key Insights
+## Key Findings
 
-### Brand Analysis
-
-- Roadster had the highest product count.
-- Tokyo Talkies and MANGO were among the leading brands.
-
-### Pricing Analysis
-
-- Average product price: **₹2964**
-- Most products are priced below **₹5000**
-- Premium brands show significantly higher average prices.
-
-### Customer Ratings
-
-- Most ratings fall between **4.0 – 4.5**
-- Highly rated products dominate the dataset.
+- Roadster was the most represented brand in the dataset.
+- The average product price was approximately ₹2964.
+- Most products were priced below ₹5000.
+- Customer ratings were concentrated between 4.0 and 4.5.
+- Premium brands showed significantly higher average pricing than the overall market.
 
 ---
 
-# 🚀 Future Enhancements
+## Future Improvements
 
-Possible improvements include:
+Possible extensions for this project include:
 
-- Interactive dashboard using Streamlit
+- Interactive dashboard development using Streamlit
 - Product recommendation system
 - Customer review sentiment analysis
-- Machine Learning-based trend prediction
+- Machine learning based trend prediction
 
 ---
 
-# ▶️ How to Run
+## Repository Structure
 
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/Myntra-Fashion-Trends-Analysis.git
+```text
+Myntra-Fashion-Trends-Analysis
+│
+├── README.md
+├── myntra_analysis.ipynb
+├── myntra_analysis.html
+├── top_brands.png.jpeg
+├── price_distribution.png.jpeg
+├── rating_distribution.png.jpeg
+├── myntra_logo.png.webp
+└── expensive_brands.png.jpeg
 ```
+
+---
+
+## Running the Project
 
 Install dependencies:
 
@@ -178,39 +150,3 @@ myntra_analysis.ipynb
 ```
 
 and run all cells.
-
----
-
-# 📂 Repository Structure
-
-```text
-Myntra-Fashion-Trends-Analysis
-│
-├── README.md
-├── myntra_analysis.ipynb
-├── myntra_analysis.html
-├── top_brands.png.jpeg
-├── price_distribution.png.jpeg
-├── rating_distribution.png.jpeg
-├── myntra_logo.png.webp
-└── expensive_brands.png.jpeg
-```
-
----
-
-# 👩‍💻 Author
-
-### Rakshitha Velmurugan
-
-B.Sc Cyber Security Student
-
-Interested in:
-
-- Cyber Security
-- Data Analytics
-- Python Development
-- Problem Solving
-
----
-
-⭐ If you found this project useful, consider giving it a star.
