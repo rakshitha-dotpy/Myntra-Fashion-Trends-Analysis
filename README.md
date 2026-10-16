@@ -10,7 +10,7 @@ Data analysis of 14,330 fashion products using Python, Pandas and Matplotlib
 
 ---
 
-## Project Overview
+## Project Overview.....
 
 This project explores a Myntra fashion products dataset to understand pricing patterns, brand representation, and customer rating trends.
 
